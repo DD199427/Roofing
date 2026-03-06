@@ -1,0 +1,15 @@
+Path Checkpoint :
+
+- Use the lines labelled data
+- Use an Unet try overfitting with a small subset 
+- No need to be worrie about classes as there is only one class line with varying sizes and locations.
+
+The above didn't work for segmentation as the strength of segmentation was are encompassed, shifted to usinf the corner based system.
+The model is trained on 100 images and has been saved locally as .pth file with pytorch weighgts checkpoints.
+
+Checkpoint Reached
+
+Path Checkpoint :
+- Explore model re-training
+- Explore debugging on 1 image , get the heatmap thingy. - Accomplished..
+- Explore weights and biases on the above.---Weights and biases are different from wat i want here so going with gradcam and IG.
